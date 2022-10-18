@@ -2,6 +2,7 @@ import React from 'react';
 import Carousel from './components/Carousel';
 import Title from './components/Title';
 import NavigationBar from './components/NavigationBar';
+import HomeDescription from './components/HomeDescription';
 import logo from './assets/img/logo-museum.png';
 
 import './App.scss'
@@ -15,6 +16,7 @@ function App() {
         />
         <Title title="Title of website" />
         <Carousel />
+        <HomeDescription />
       </div>
     </div>
   );
