@@ -1,18 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types'
-import './Title.scss'
+import './styles/Title.scss'
 
 
 interface Props {
-    title: string
-    // any props that come into the component
+  title: string
 }
 
 function Title({ title }: Props) {
   
   return (
     <p id="title">{title}</p>
-
   );
 }
 
