@@ -1,15 +1,13 @@
 import React, { useEffect } from 'react';
 import { CCarousel, CCarouselItem, CImage } from '@coreui/react';
 import '@coreui/coreui/dist/css/coreui.min.css'
-
-
+import './Carousel.scss'
 
 
 function Carousel() {
-
   
   return (
-<CCarousel controls>
+<CCarousel controls indicators transition='crossfade'>
   <CCarouselItem>
     <CImage className="d-block w-100" src="https://images.unsplash.com/photo-1499781350541-7783f6c6a0c8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1890&q=80" alt="slide 1" />
   </CCarouselItem>
